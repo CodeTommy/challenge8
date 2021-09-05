@@ -2,8 +2,7 @@ const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
-/*PUT YOUR OWN KEY HERE - THIS MIGHT NOT WORK
-SUBSCRIBE HERE: https://home.openweathermap.org/users/sign_up*/
+
 const apiKey = "636f63679cfefd193632b85cc60df0f6";
 
 form.addEventListener("submit", e => {
